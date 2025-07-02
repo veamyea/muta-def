@@ -6,3 +6,6 @@ COPY . .
 
 ENTRYPOINT []
 CMD ["./start.sh"]
+
+EXPOSE 2368
+
