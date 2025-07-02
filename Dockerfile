@@ -6,6 +6,7 @@ COPY . .
 
 ENTRYPOINT []
 CMD ["./start.sh"]
+ENV http://localhost:2368/
 
 EXPOSE 2368
 
